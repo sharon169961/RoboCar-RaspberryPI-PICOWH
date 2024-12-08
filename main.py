@@ -22,8 +22,8 @@ motor_d_backward = Pin(11, Pin.OUT)
 
 
 # Wi-Fi credentials
-ssid = 'robosoccer'
-password = 'iitmadras'
+ssid = 'Team 3'
+password = 'vitchennai'
 
 def move_forward():
     motor_a_forward.value(1)
@@ -247,12 +247,11 @@ def webpage(random_value, state):
         <!DOCTYPE html>
         <html>
         <head>
-            <title>Aditya Rao - Paradox'24 Workshop</title>
+            <title>Team 3 RC car</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
         </head>
         <body>
-            <h1 align="center">ROBO SOCCER WIFI CONTROL</h1>
-            <h2 align="center">Aditya Rao - Mecanum v2</h2>
+            <h1 align="center">Team 3 WIFI CONTROL</h1>
             <table align="center">
             <tr>
                 <td>
